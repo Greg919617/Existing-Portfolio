@@ -85,7 +85,7 @@
 
       <!-- Row 2 -->
       <div class="row row-2">
-        <div class="col m6">
+        <div class="col m6 hide-on-small-only">
           <div class="card">
             <div class="card-image">
               <img src="img/gallery/St-Lukes.jpg" alt="">
@@ -94,18 +94,9 @@
                 <i class="material-icons">add</i>
               </a>
             </div>
-            <div class="card-content">
-              <p>
-                <!-- <i class="material-icons">star</i>
-                <i class="material-icons">star</i>
-                <i class="material-icons">star</i>
-                <i class="material-icons">star</i>
-                <i class="material-icons">star_half</i> -->
-              </p>
-            </div>
           </div>
         </div>
-        <div class="col m6 hide-on-small-only">
+        <div class="col m6">
           <div class="img-content">
             <h3>St Lukes Health System</h3>
             At-the-elbow support during the first 2 weeks of GoLive for Acute Nurses, Physiatrists, and Therapist using <i>PowerChart</i> 
@@ -142,6 +133,35 @@
           </div>
         </div>
       </div>
+<!-- Row 4 -->
+<div class="row row-4">
+  <div class="col m6 hide-on-small-only">
+    <div class="img-content">
+      <h3>St Joseph Health System</h3>
+      I have been working for Saint Lukes for 2 years. Im currently serving as an Administrative Assistant for the Physical Therapy Dpt.
+    </div>
+  </div>
+  <div class="col m6">
+    <div class="card">
+      <div class="card-image">
+        <img src="img/gallery/saintlukes.jpg" alt="">
+        <span class="card-title">Kansas City</span>
+        <a href="#abstract1" class="btn-floating halfway-fab waves-effect waves-light red modal-trigger">
+          <i class="material-icons">add</i>
+        </a>
+      </div>
+      <div class="card-content">
+        <p>
+          <!-- <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i> -->
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   </section>
 
@@ -157,7 +177,7 @@
           <h5 class="white-text">Links</h5>
           <ul>
             <li>
-              <a class="grey-text text-lighten-3" href="resources/emr-resume.pdf">EMR/EHR Consulting Resume</a>
+              <a class="grey-text text-lighten-3" href="resources/emr-resume1.pdf">EMR/EHR Consulting Resume</a>
             </li>
             <li>
               <a class="grey-text text-lighten-3" href="resources/updated-resume.pdf">Resume</a>
@@ -272,7 +292,8 @@
         {
           selector: '.row-3', offset: 400, callback: function (el) {
             Materialize.fadeInImage($(el));
-          }
+          },
+  
         }
       ];
 
